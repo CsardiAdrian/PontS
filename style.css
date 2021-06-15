@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+  font-size: 1.2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+body h1 {
+  margin: 20px;
+  color: #074b6f;
+}
+
+body h1 span {
+  color: #fff;
+  background-color: #074b6f;
+  padding: 5px 10px;
+}
+
+#container {
+  background-color: #efefef;
+  background-image: url("/img/man.jpg");
+  background-size: cover;
+  max-width: 600px;
+  height: 400px;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 2px 2px 8px #777;
+          box-shadow: 2px 2px 8px #777;
+}
+
+#container #message {
+  border: 2px solid #33cccc9c;
+  border-radius: 100px;
+  padding: 15px 20px 15px 25px;
+  width: 215px;
+  position: absolute;
+  right: 20px;
+  top: 125px;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+#point {
+  -webkit-appearance: none;
+  width: 60%;
+  max-width: 500px;
+  height: 20px;
+  background: #33cccc9c;
+  border-radius: 30px;
+  outline: none;
+  display: inline-block;
+  margin: 20px auto;
+  -webkit-transition: .2s;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+#currentPointBox {
+  background-color: #074b6f;
+  padding: 5px 10px;
+  color: #fff;
+  display: inline-block;
+  width: 110px;
+  border-radius: 5px;
+}
+
+#currentPointBox #currentPoint {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.red {
+  background-color: red !important;
+}
+
+.orange {
+  background-color: orange !important;
+}
+
+.yellow {
+  background-color: yellow !important;
+  color: #074b6f !important;
+}
+
+.yellowGreen {
+  background-color: yellowgreen !important;
+}
+
+.green {
+  background-color: green !important;
+}
+
+.elegtelen {
+  background: url(/img/elegtelen.png) no-repeat 90%;
+  background-size: 20%;
+}
+
+.elegseges {
+  background: url(/img/elegseges.png) no-repeat 90%;
+  background-size: 20%;
+}
+
+.kozepes {
+  background: url(/img/kozepes.png) no-repeat 90%;
+  background-size: 20%;
+}
+
+.jo {
+  background: url(/img/jo.png) no-repeat 90%;
+  background-size: 20%;
+}
+
+.jeles {
+  background: url(/img/jeles.png) no-repeat 90%;
+  background-size: 20%;
+}
+
+::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background: #074b6f;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

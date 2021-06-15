@@ -1,0 +1,136 @@
+$primary-color: #33cccc9c;
+$secondary-color: #074b6f;
+$light-grey: #efefef;
+$dark-grey: #777;
+$white: #fff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $light-grey;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    h1 {
+        margin: 20px;
+        color: $secondary-color;
+        span {
+            color: $white;
+            background-color: $secondary-color;
+            padding: 5px 10px;
+        }
+    }
+}
+
+#container {
+    background-color: $light-grey;
+    background-image: url('/img/man.jpg');
+    background-size: cover;
+    max-width: 600px;
+    height: 400px;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 8px $dark-grey;
+    #message {
+        border: 2px solid $primary-color;
+        border-radius: 100px;
+        padding: 15px 20px 15px 25px;
+        width: 215px;
+        position: absolute;
+        right: 20px;
+        top: 125px;
+        font-size: 1.3em;
+        text-align: left;
+    }
+}
+
+#point {
+    -webkit-appearance: none;
+    width: 60%;
+    max-width: 500px;
+    height: 20px;
+    background: $primary-color;
+    border-radius: 30px;
+    outline: none;
+    display: inline-block;
+    margin: 20px auto;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#currentPointBox {
+    background-color: $secondary-color;
+    padding: 5px 10px;
+    color: $white;
+    display: inline-block;
+    width: 110px;
+    border-radius: 5px;
+    #currentPoint {
+        display: inline-block;
+        font-size: 1.5em;
+    }
+}
+
+.red {
+    background-color: red !important;
+}
+
+.orange {
+    background-color: orange !important;
+}
+
+.yellow {
+    background-color: yellow !important;
+    color: $secondary-color !important;
+}
+
+.yellowGreen {
+    background-color: yellowgreen !important;
+}
+
+.green {
+    background-color: green !important;
+}
+
+.elegtelen {
+    background: url(/img/elegtelen.png) no-repeat 90%;
+    background-size: 20%;
+}
+
+.elegseges {
+    background: url(/img/elegseges.png) no-repeat 90%;
+    background-size: 20%;
+}
+
+.kozepes {
+    background: url(/img/kozepes.png) no-repeat 90%;
+    background-size: 20%;
+}
+
+.jo {
+    background: url(/img/jo.png) no-repeat 90%;
+    background-size: 20%;
+}
+
+.jeles {
+    background: url(/img/jeles.png) no-repeat 90%;
+    background-size: 20%;
+}
+
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: $secondary-color;
+    cursor: pointer;
+}
